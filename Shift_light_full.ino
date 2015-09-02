@@ -28,10 +28,11 @@ work for this sketch but I added other PID values for the other
 examples. Essentially this example just uses ODB PID requests 
 over the CAN bus to get the RPM signal.
 
-I'm using the Adafruit NeoPixel and LED backpack libraries that can be loaded 
+I'm using the Adafruit NeoPixel, gfx, and LED backpack libraries that can be loaded 
 in the aurdino IDE or found here: 
 https://github.com/adafruit/Adafruit_NeoPixel
 https://github.com/adafruit/Adafruit-LED-Backpack-Library
+https://github.com/adafruit/Adafruit-GFX-Library
 
 I'm also using the ClickEncoder library (https://github.com/0xPIT/encoder/tree/arduino)
 which also requires the use of the Timer1 library (http://playground.arduino.cc/Code/Timer1)
